@@ -9,6 +9,10 @@
 body {
   background: #34b2ebab;
 }
+a {
+  color: inherit;
+  text-decoration: none;
+}
 .container {
   position: absolute;
   top: 50%;

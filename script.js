@@ -90,5 +90,11 @@ async function generateQuote() {
 
   document.querySelector(".quote").innerHTML = quote;
   document.querySelector(".author").innerHTML = author;
+  console.log(
+    (document.querySelector(
+      ".twitter-share-button"
+    ).href = `https://twitter.com/intent/tweet?text=${quote}%0A${author}`)
+  );
 }
+
 generateQuote();
